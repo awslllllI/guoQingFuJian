@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>国庆复建</title>
-    <style>  
+    <title>AAA</title>
+    <style>
       body {
         margin: 0;
       }
     </style>
   </head>
-  <body>
-	  <div style="
-      background-color: #f1f1f1;
-      text-align: center;
-      padding: 40px; 
-    ">
-      <img src="https://kangwenchang.com/logo.png" alt="kwc" width="80px" height="80px">
+  <body style="margin: 0;display: flex;flex-direction: column;align-items: center;">
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 160px; background-color: #eee;"  >
+      <img
+        src="\f7d08bf543c53aa1cbdbcc59c0cb3431.jpg"
+        alt="awsl"
+        width="80px"
+        height="80px"
+      />
     </div>
-    <div style="
-      max-width: 700px;
-      margin: 30px auto;
-      padding: 15px;
-      line-height: 1.7; 
-    ">
+    <div
+      style="
+        display: block;
+        max-width: 700px;
+        min-height: 70vh;
+        letter-spacing: 1px;
+        width: 90%;
+        padding: 30px;
+        line-height: 1.7;
+      "
+    >
       <h1>国庆复建</h1>
       <h2>10.3</h2>
-      <p>前端标签样式设置:</p>
+      <h3>1.前端标签样式设置:</h3>
       <pre>
       style="
         background-color: 设置颜色;
@@ -38,15 +44,61 @@
         line-height: 1.7 行距
       "
       </pre>
-      <p></p>
+      <h3>2.vscode悬浮翻译插件Wisen-Translate的快捷键:</h3>
+      <p>
+        alt + a :输入中文译英文<br />
+        alt + w :选中翻译<br />
+      </p>
+      <h3>3.css中flex弹性布局 的细节</h3>
+      <p>
+        采用Flex布局的元素，称为Flex容器（flex
+        container），简称”容器”。它的所有子元素自动成为容器成员，称为Flex项目（flex
+        item），简称”项目”。<br />
+        <img src="/3791e575c48b3698be6a94ae1dbff79d.png" alt="" /><br />
+        容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross
+        axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main
+        end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。
+        项目默认沿主轴排列。单个项目占据的主轴空间叫做main
+        size，占据的交叉轴空间叫做cross size。<br />
+        <pre>
+          style="
+        background-color: beige;
+        display: flex;
+        flex-direction决定主轴的方向（即项目的排列方向）: row（默认值）主轴为水平方向，起点在左端;
+                                                        row-reverse主轴为水平方向，起点在右端;
+                                                        column主轴为垂直方向，起点在上沿;
+                                                        column-reverse主轴为垂直方向，起点在下沿;
+
+        flex-wrap如果一条轴线排不下，如何换行: nowrap（默认）不换行;
+                                              wrap换行，第一行在上方;
+                                              wrap-reverse换行，第一行在下方;
+        flex-flow前两的简写:
+        justify-content主轴上的对齐方式: flex-start默认值）左对齐;
+                                        flex-end右对齐;
+                                        center居中;
+                                        space-between两端对齐，项目之间的间隔都相等;
+                                        space-around每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍;
+                                        space-evenly均匀分布;
+        align-items在交叉轴上如何对齐: flex-start起点对齐;
+                                      flex-end终点对齐;
+                                      center中点对齐;
+                                      baseline项目的第一行文字的基线对齐;
+                                      stretch（默认值）如果项目未设置高度或设为auto，将占满整个容器的高度;
+        align-content多根轴线的对齐方式: flex-start交叉轴的起点对齐;
+                                        flex-end与交叉轴的终点对齐;
+                                        center与交叉轴的中点对齐;
+                                        space-between与交叉轴两端对齐，轴线之间的间隔平均分布;
+                                        space-around每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍;
+                                        stretch（默认值）轴线占满整个交叉轴;
+
+      "
+        </pre>
+        <a href="https://www.runoob.com/w3cnote/flex-grammar.html">菜鸟教程对flex的讲解</a>
+      </p>
     </div>
-    <div style="
-      background-color: #f1f1f1;
-      text-align: center;
-      padding: 40px;  
-    ">
-      <p>我的网站</p>
-      <a href="https://awsllllli.github.io/guoQingFuJian/new.html">/new.html</a>
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100%; height: 160px; background-color: #eee;">
+      <p>版权备案号</p>
+      <a href="https://www.midorg.com">友情链接</a>
     </div>
   </body>
 </html>
